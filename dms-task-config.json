@@ -1,0 +1,20 @@
+{
+  "MigrationType": "full-load-and-cdc",
+  "TableMappings": {
+    "rules": [
+      {
+        "rule-type": "selection",
+        "rule-id": "1",
+        "rule-action": "include",
+        "object-locator": {
+          "schema-name": "dbo",
+          "table-name": "%"
+        }
+      }
+    ]
+  },
+  "TargetMetadata": {
+    "TargetSchema": "public",
+    "SupportLobs": true
+  }
+}
