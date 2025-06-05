@@ -1,0 +1,13 @@
+{
+  "DataSetId": "customer-insights",
+  "Name": "Customer Insights",
+  "PhysicalTableMap": {
+    "customerRedshiftTable": {
+      "RelationalTable": {
+        "DataSourceArn": "arn:aws:quicksight:region:account:datasource/redshift-ds",
+        "Schema": "public",
+        "Name": "customer"
+      }
+    }
+  }
+}
