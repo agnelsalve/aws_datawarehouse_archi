@@ -1,6 +1,6 @@
 🏗️ AWS Data Warehouse Proposed Architecture – Insure-Tech Company
 
-This repository presents a proposed architecture for implementing a scalable and secure AWS-based data warehouse** (using DMS & RDS) **for an Insure-tech company, enabling robust data ingestion, transformation, analysis, and visualization pipelines.
+This repository presents a proposed architecture for implementing a scalable and secure AWS-based data warehouse **(using DMS & RDS)** for an Insure-tech company, enabling robust data ingestion, transformation, analysis, and visualization pipelines.
 
 🚀 Overview
 The architecture is designed to migrate and modernize legacy on-premise MS-SQL data into a cloud-native, high-performance analytics platform on AWS. It leverages managed AWS services to build a secure, automated ETL and BI visualization ecosystem.
